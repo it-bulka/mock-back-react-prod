@@ -1,0 +1,706 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "json-server",
+      "userId": 2
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123",
+      "avatar": "https://img.freepik.com/free-psd/3d-illustration-human-avatar-profile_23-2150671142.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1724457600&semt=ais_hybrid"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "123",
+      "role": "USER",
+      "avatar": "https://uploads.commoninja.com/searchengine/wordpress/user-avatar-reloaded.png"
+    }
+  ],
+  "profile": [
+    {
+      "id": "1",
+      "first": "Iv",
+      "lastname": "G",
+      "age": 29,
+      "currency": "UAN",
+      "country": "Ukraine",
+      "city": "Kyiv",
+      "username": "admin",
+      "avatar": "https://static.vecteezy.com/system/resources/previews/020/437/389/non_2x/admin-icon-vector.jpg"
+    },
+    {
+      "id": "2",
+      "first": "jgh",
+      "lastname": "asf",
+      "age": 465,
+      "currency": "UAN",
+      "country": "Ukraine",
+      "city": "Kyiv",
+      "username": "admin213",
+      "avatar": "https://uploads.commoninja.com/searchengine/wordpress/user-avatar-reloaded.png"
+    }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "title": "JavaScript News",
+      "subtitle": "Latest in JavaScript for 2023",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 1022,
+      "createdAt": "01.03.2023",
+      "userId": "1",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "JavaScript continues to evolve with new features, making it a powerful tool for web developers worldwide.",
+            "The latest updates in JavaScript aim to improve performance and simplify coding for developers.",
+            "Stay tuned for more insights on how to leverage these new capabilities in your projects."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "CODE",
+          "code": "console.log('Welcome to the new JavaScript!');"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "The Rise of AI in IT",
+      "subtitle": "How AI is changing the tech landscape",
+      "img": "https://d3g5ywftkpzr0e.cloudfront.net/wp-content/uploads/2023/07/13220529/Artificial-Intelligence-in-Indonesia-The-current-state-and-its-opportunities.jpeg",
+      "views": 1345,
+      "createdAt": "10.05.2023",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Impact of AI",
+          "paragraphs": [
+            "Artificial Intelligence is reshaping how companies operate, making processes more efficient.",
+            "The integration of AI with existing technologies is opening up new possibilities.",
+            "From automation to decision-making, AI is a game-changer in tech."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Quantum Computing Advances",
+      "subtitle": "What does the future hold?",
+      "img": "https://dwg31ai31okv0.cloudfront.net/images/Article_Images/ImageForArticle_88_17256255059219994.jpg",
+      "views": 987,
+      "createdAt": "18.07.2023",
+      "userId": "3",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Quantum Computing Basics",
+          "paragraphs": [
+            "Quantum computing leverages quantum mechanics to perform computations at incredible speeds.",
+            "With quantum technology, problems previously deemed unsolvable are now within reach.",
+            "Companies and researchers are investing heavily to make quantum computing mainstream."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Economic Trends in 2023",
+      "subtitle": "How inflation is shaping economies",
+      "img": "https://insights.ise.org.uk/wp-content/uploads/2022/10/Economic-trends-that-will-affect-recruitment-and-employment.png",
+      "views": 2020,
+      "createdAt": "05.04.2023",
+      "userId": "4",
+      "type": ["ECONOMICS"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Global Economic Shifts",
+          "paragraphs": [
+            "Inflation rates are causing economic shifts globally, impacting both individuals and businesses.",
+            "Policies are being revised to cope with inflation, affecting multiple sectors.",
+            "Economists predict varied outcomes depending on regional approaches to inflation control."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Advances in Machine Learning",
+      "subtitle": "What's new in ML algorithms?",
+      "img": "https://cdn.pixabay.com/photo/2024/01/29/22/47/ai-generated-8540915_640.jpg",
+      "views": 1125,
+      "createdAt": "22.06.2023",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "New Techniques in ML",
+          "paragraphs": [
+            "Machine Learning algorithms are becoming more sophisticated, enabling better predictions.",
+            "New techniques like transfer learning and meta-learning are gaining traction.",
+            "These advancements promise more accurate and efficient models."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Blockchain Beyond Cryptocurrency",
+      "subtitle": "Applications of blockchain in various industries",
+      "img": "https://blockchain.example.com/blockchain.jpg",
+      "views": 1570,
+      "createdAt": "15.08.2023",
+      "userId": "7",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction to Blockchain",
+          "paragraphs": [
+            "Blockchain technology is transforming industries beyond finance.",
+            "Applications include supply chain management, healthcare, and secure data storage.",
+            "Its potential for secure, transparent transactions is reshaping how companies operate."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "CODE",
+          "code": "const blockchain = new Blockchain();\nblockchain.addBlock(data);"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "The Economics of Climate Change",
+      "subtitle": "Financial impacts of global warming",
+      "img": "https://cdn.mos.cms.futurecdn.net/TY6SwtikwK9QzrrmuZcfoj.jpg",
+      "views": 1210,
+      "createdAt": "20.07.2023",
+      "userId": "1",
+      "type": ["ECONOMICS"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Climate Change Costs",
+          "paragraphs": [
+            "Global warming is increasing costs for governments and businesses.",
+            "Economies are adapting to address these financial challenges.",
+            "Investments in renewable energy are essential to mitigate economic losses."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Artificial Intelligence in Healthcare",
+      "subtitle": "How AI is revolutionizing medicine",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCBiKbiVO079IJ7ONdNjcxC5Ae8QrNv4eZ1w&s",
+      "views": 1890,
+      "createdAt": "05.10.2023",
+      "userId": "9",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "AI Applications in Healthcare",
+          "paragraphs": [
+            "AI tools are being developed to assist in diagnostics and patient care.",
+            "Machine learning algorithms help detect diseases earlier and more accurately.",
+            "AI is paving the way for more personalized and effective treatments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "5G Network Expansion",
+      "subtitle": "Impact of 5G on technology and society",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqfnaRuWROEykzhn-FWi9AaQL8fQTYgEyqWQ&s",
+      "views": 980,
+      "createdAt": "13.09.2023",
+      "userId": "1",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "What 5G Means for Technology",
+          "paragraphs": [
+            "5G is set to revolutionize the internet with faster speeds and lower latency.",
+            "This network upgrade will support IoT, autonomous vehicles, and smart cities.",
+            "With 5G, devices can communicate more efficiently, enhancing user experiences."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Renewable Energy Economics",
+      "subtitle": "The rise of green energy investments",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzfWdj_W7qJ8NFASo7TagGF3mQuu286cPAGA&s",
+      "views": 1115,
+      "createdAt": "28.08.2023",
+      "userId": "2",
+      "type": ["ECONOMICS"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Economic Impact of Renewables",
+          "paragraphs": [
+            "Investments in renewable energy are growing, driven by climate concerns.",
+            "Green energy jobs and industries are contributing to economic development.",
+            "The transition to renewable energy is essential for long-term economic stability."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "The Science of Vaccine Development",
+      "subtitle": "How vaccines are developed and tested",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEXEzt8N7fTV00NiN9X2lIQ__nI4EZg8irag&s",
+      "views": 1470,
+      "createdAt": "30.06.2023",
+      "userId": "2",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Steps in Vaccine Development",
+          "paragraphs": [
+            "Vaccine development is a complex, multi-stage process.",
+            "It involves rigorous testing to ensure safety and efficacy.",
+            "Vaccines have saved millions of lives by preventing the spread of diseases."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Cybersecurity Trends for 2023",
+      "subtitle": "Protecting data in a digital world",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzgLSbmgYxJMTJcUwssl1hmgjJjLsURQsWjg&s",
+      "views": 1320,
+      "createdAt": "19.11.2023",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "New Cybersecurity Threats",
+          "paragraphs": [
+            "Cybersecurity is more important than ever with increasing online threats.",
+            "New technologies are being developed to protect sensitive data.",
+            "Companies are investing in cybersecurity to protect their assets and reputation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Neuroscience of Memory",
+      "subtitle": "How memory works in the human brain",
+      "img": "https://neurosciencenews.com/files/2023/05/neuroscience-news-week.jpg",
+      "views": 1095,
+      "createdAt": "12.08.2023",
+      "userId": "1",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Understanding Memory",
+          "paragraphs": [
+            "Memory formation is a key aspect of learning and adaptation.",
+            "Neuroscience research is uncovering how memories are stored and retrieved.",
+            "This knowledge could help develop treatments for memory-related disorders."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Cryptocurrency Market Trends",
+      "subtitle": "Understanding the crypto market in 2023",
+      "img": "https://cdn.britannica.com/24/234824-050-AEA072F7/Conceptual-illustration-representing-the-bitcoin-cryptocurrency.jpg",
+      "views": 1540,
+      "createdAt": "24.09.2023",
+      "userId": "1",
+      "type": ["ECONOMICS"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Crypto Market Dynamics",
+          "paragraphs": [
+            "The cryptocurrency market is highly volatile with rapid value changes.",
+            "Investors are becoming more cautious but still see potential in the sector.",
+            "Blockchain technology behind cryptocurrencies continues to innovate."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Deep Learning for Image Recognition",
+      "subtitle": "How deep learning is used in image processing",
+      "img": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/22606/images/ffb36af-fda-57fd-546-8e1e25788ca1_image-recognition.jpeg",
+      "views": 1385,
+      "createdAt": "29.10.2023",
+      "userId": "1",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Applications of Deep Learning",
+          "paragraphs": [
+            "Deep learning models can identify objects and patterns in images.",
+            "Image recognition has applications in security, healthcare, and retail.",
+            "This technology is paving the way for smarter and more responsive systems."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Quantum Computing: The Next Frontier",
+      "subtitle": "Exploring the potential of quantum technology",
+      "img": "https://quantum.example.com/quantum.jpg",
+      "views": 1700,
+      "createdAt": "05.09.2023",
+      "userId": "2",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction to Quantum Computing",
+          "paragraphs": [
+            "Quantum computing promises to solve complex problems much faster than classical computers.",
+            "It leverages quantum mechanics to perform computations that were previously impossible.",
+            "This technology could revolutionize industries from cryptography to materials science."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "The Rise of Edge Computing",
+      "subtitle": "Bringing data processing closer to the source",
+      "img": "https://www.thefastmode.com/media/k2/items/src/2ff28fd515fc8465d5c90d34b8ed94be.jpg?t=20220106_105015",
+      "views": 1450,
+      "createdAt": "22.07.2023",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "What is Edge Computing?",
+          "paragraphs": [
+            "Edge computing processes data at or near the source rather than in centralized data centers.",
+            "It reduces latency, improves speed, and enhances user experience for IoT devices.",
+            "Edge computing is essential for applications requiring real-time data processing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "The Psychology of Color in Marketing",
+      "subtitle": "How color choices influence customer behavior",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfm-D6k3PzHUXpVpCRND6VM38SpBDb6Eq7WQ&s",
+      "views": 1300,
+      "createdAt": "30.06.2023",
+      "userId": "1",
+      "type": ["ECONOMICS"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Impact of Color on Marketing",
+          "paragraphs": [
+            "Color psychology plays a significant role in influencing consumer decisions.",
+            "Different colors evoke specific emotions and can affect purchasing behavior.",
+            "Marketers use colors strategically to align with brand identity and appeal to target audiences."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Genetics and Human Health",
+      "subtitle": "How genetic research is transforming medicine",
+      "img": "https://genomind.com/wp-content/uploads/2022/02/iStock-1179937963-1-1030x687.jpg",
+      "views": 1565,
+      "createdAt": "12.08.2023",
+      "userId": "1",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Advances in Genetic Research",
+          "paragraphs": [
+            "Genetic research is leading to more personalized and effective medical treatments.",
+            "Understanding DNA helps in diagnosing and treating hereditary diseases.",
+            "This field is critical for the future of preventive and precision medicine."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "The Future of Remote Work",
+      "subtitle": "How remote work is reshaping the job market",
+      "img": "https://imageio.forbes.com/specials-images/imageserve/5fd8ed735ece66f80a4660f0/Remote-work-is-here-to-stay-in-2021/960x0.jpg?format=jpg&width=960",
+      "views": 1850,
+      "createdAt": "01.09.2023",
+      "userId": "2",
+      "type": ["ECONOMICS"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Adapting to Remote Work",
+          "paragraphs": [
+            "Remote work has become more prevalent due to advances in technology.",
+            "Companies are adapting their policies to accommodate flexible work arrangements.",
+            "This trend is influencing office space usage and global hiring practices."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Augmented Reality in Education",
+      "subtitle": "Enhancing learning experiences with AR",
+      "img": "https://rubygarage.s3.amazonaws.com/uploads/article_image/file/2305/human_anatomy_atlas_1x.jpg",
+      "views": 1420,
+      "createdAt": "15.10.2023",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "AR's Role in Modern Education",
+          "paragraphs": [
+            "Augmented reality brings interactive learning experiences to students.",
+            "AR tools make complex subjects more accessible and engaging.",
+            "This technology is transforming traditional educational methods."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "The Economic Impact of Automation",
+      "subtitle": "How automation is changing the job market",
+      "img": "https://media.licdn.com/dms/image/D4D12AQGTz_lnXCRzTg/article-cover_image-shrink_720_1280/0/1686173419681?e=2147483647&v=beta&t=L5chEelaEYLUd4dmhxESIVKUjR-oFZvEgsSxlQAb0S0",
+      "views": 1675,
+      "createdAt": "08.11.2023",
+      "userId": "2",
+      "type": ["ECONOMICS"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Automation and Employment",
+          "paragraphs": [
+            "Automation has both positive and negative impacts on employment.",
+            "While it improves efficiency, it also replaces certain types of jobs.",
+            "The workforce must adapt to new skill requirements in an automated world."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Exploring the Human Microbiome",
+      "subtitle": "Understanding the ecosystem within us",
+      "img": "https://www.nature.com/immersive/human-microbiome/assets/LqmVu8e5xd/human-microbiome-data-1920x1080.jpg",
+      "views": 1255,
+      "createdAt": "25.07.2023",
+      "userId": "1",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "The Role of Microbiome in Health",
+          "paragraphs": [
+            "The human microbiome affects digestion, immunity, and overall health.",
+            "Research is uncovering the symbiotic relationships within our bodies.",
+            "Understanding microbiomes can lead to better health and disease treatments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "The Power of Predictive Analytics",
+      "subtitle": "Forecasting trends in various industries",
+      "img": "https://media.licdn.com/dms/image/D4D12AQH5YTfpQWjBNA/article-cover_image-shrink_600_2000/0/1694951238315?e=2147483647&v=beta&t=RHoViQvgKDXK5Z757RzEddNc0SKNthZUjI6QUCTyOb8",
+      "views": 1500,
+      "createdAt": "10.11.2023",
+      "userId": "1",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Predictive Analytics Applications",
+          "paragraphs": [
+            "Predictive analytics uses data to forecast future events and trends.",
+            "It helps businesses make informed decisions and optimize processes.",
+            "Industries from healthcare to retail are leveraging this technology."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "The Evolution of Cloud Computing",
+      "subtitle": "From virtual servers to multi-cloud strategies",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4EPS8LGo6hT3JEBZCyzy3AcjmzogrWBV_wg&s",
+      "views": 1345,
+      "createdAt": "14.08.2023",
+      "userId": "1",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Cloud Computing Today",
+          "paragraphs": [
+            "Cloud computing has evolved to support complex applications and data storage.",
+            "Businesses are increasingly adopting multi-cloud and hybrid cloud strategies.",
+            "The cloud provides scalability and flexibility for modern digital needs."
+          ]
+        }
+      ]
+    }
+  ],
+  "comments": [{
+    "id": "1",
+    "text": "This quantum computing article is fascinating!",
+    "articleId": "17",
+    "userId": "1"
+  },
+    {
+      "id": "2",
+      "text": "Edge computing is the future for IoT devices.",
+      "articleId": "18",
+      "userId": "2"
+    },
+    {
+      "id": "3",
+      "text": "Great insights on color psychology in marketing!",
+      "articleId": "19",
+      "userId": "1"
+    },
+    {
+      "id": "4",
+      "text": "Such a clear explanation of genetics in medicine.",
+      "articleId": "20",
+      "userId": "2"
+    },
+    {
+      "id": "5",
+      "text": "Remote work trends are reshaping everything!",
+      "articleId": "21",
+      "userId": "1"
+    },
+    {
+      "id": "6",
+      "text": "AR in education has so much potential. Loved this!",
+      "articleId": "22",
+      "userId": "2"
+    },
+    {
+      "id": "7",
+      "text": "Automation impact on jobs is eye-opening.",
+      "articleId": "23",
+      "userId": "1"
+    },
+    {
+      "id": "8",
+      "text": "Microbiome research could change healthcare.",
+      "articleId": "24",
+      "userId": "1"
+    },
+    {
+      "id": "9",
+      "text": "Predictive analytics helps make smarter decisions.",
+      "articleId": "25",
+      "userId": "2"
+    },
+    {
+      "id": "10",
+      "text": "The evolution of cloud computing is incredible!",
+      "articleId": "26",
+      "userId": "1"
+    },
+    {
+      "id": "11",
+      "text": "Thanks for breaking down quantum computing!",
+      "articleId": "17",
+      "userId": "2"
+    },
+    {
+      "id": "12",
+      "text": "The role of color in marketing is so important.",
+      "articleId": "19",
+      "userId": "1"
+    },
+    {
+      "id": "13",
+      "text": "Edge computing is a game-changer!",
+      "articleId": "18",
+      "userId": "1"
+    },
+    {
+      "id": "14",
+      "text": "Excited about the future of AR in classrooms.",
+      "articleId": "22",
+      "userId": "2"
+    },
+    {
+      "id": "15",
+      "text": "Cloud computing really changed how we store data.",
+      "articleId": "26",
+      "userId": "2"
+    }
+  ]
+}

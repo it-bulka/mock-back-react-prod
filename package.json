@@ -1,0 +1,16 @@
+{
+  "name": "react-prod-mock-back",
+  "version": "1.0.0",
+  "description": "mini mock backend for react project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {}
+}
